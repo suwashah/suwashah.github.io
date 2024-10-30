@@ -9,6 +9,10 @@
 	<body class="is-preload">
 		<!-- Messenger Chat Plugin Code-->
 		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" 
+		  src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1"
+		  nonce="xyz">
+		</script>
 		<script>
 		  window.fbAsyncInit = function() {
 		    FB.init({
@@ -21,7 +25,7 @@
 		    var js, fjs = d.getElementsByTagName(s)[0];
 		    if (d.getElementById(id)) return;
 		    js = d.createElement(s); js.id = id;
-		    js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+		    //js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
 		    fjs.parentNode.insertBefore(js, fjs);
 		  }(document, 'script', 'facebook-jssdk'));
 		</script>
