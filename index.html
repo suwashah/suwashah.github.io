@@ -35,7 +35,7 @@
 						<p>Recently completing a Master of IT in Cyber Security, I am currently working as a casual resource developer at Charles Darwin University. With six years of full-stack development experience, I have advanced from a junior role to senior engineer, successfully leading projects from conception through deployment. I possess a robust understanding of the software development lifecycle, agile methodologies, and am highly proficient in object-oriented programming, web development, and databases. My technical expertise includes C, C++, C#, Python, ASP.NET MVC, .NET Core, MS-SQL Server, MySQL, HTML5, CSS3, jQuery, and Bootstrap. Passionate about continuous improvement, I eagerly embrace new learning opportunities and cutting-edge technologies.</p>
 						<ul class="actions">
 							<li><a href="https://www.linkedin.com/in/subash-shahi-5a091b73/" target="_blank" class="button"><span class="icon brands fa-linkedin"></span> &nbsp; My LinkedIn Profile</a></li>
-							<li><a href="https://drive.google.com/file/d/1gylyzO4vIGRwZ5xI2nVumIUjoFnISixQ/view?usp=sharing" target="_blank" class="button"><span class="icon regular fa-file-pdf"></span> &nbsp; My Resume</a></li>
+							<li><a href="https://github.com/suwashah" target="_blank" class="button"><span class="icon brands fa-github"></span> &nbsp; My GitHub Profile</a></li>
 						</ul>
 					</section>
 
@@ -104,7 +104,7 @@
 						<li><a href="mailto:shahi.subash79@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Subash Shahi</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; <span id="current_year"></span> by Subash Shahi</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -116,5 +116,8 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/roleanimator.js"></script>
+			<script>
+				document.getElementById("current_year").innerHTML = new Date().getFullYear();
+			</script>
 	</body>
 </html>
